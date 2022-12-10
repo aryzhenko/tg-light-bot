@@ -1,4 +1,4 @@
-module era-light-bot
+module tg-light-bot
 
 go 1.19
 

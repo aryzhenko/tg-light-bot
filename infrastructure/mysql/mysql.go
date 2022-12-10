@@ -2,12 +2,12 @@ package mysql
 
 import (
 	"database/sql"
-	"era-light-bot/common"
-	"era-light-bot/domain"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
 	"log"
 	"net/url"
+	"tg-light-bot/common"
+	"tg-light-bot/domain"
 )
 
 //https://zetcode.com/golang/mysql/

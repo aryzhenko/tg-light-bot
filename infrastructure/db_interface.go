@@ -1,7 +1,7 @@
 package infrastructure
 
 import (
-	"era-light-bot/domain"
+	"tg-light-bot/domain"
 )
 
 type Db interface {

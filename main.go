@@ -1,13 +1,13 @@
 package main
 
 import (
-	"era-light-bot/common"
-	"era-light-bot/infrastructure/mysql"
-	"era-light-bot/services"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
+	"tg-light-bot/common"
+	"tg-light-bot/infrastructure/mysql"
+	"tg-light-bot/services"
 )
 
 var PingChan *services.PingChannel

@@ -1,12 +1,12 @@
 package services
 
 import (
-	"era-light-bot/common"
-	"era-light-bot/domain"
-	"era-light-bot/infrastructure"
 	"fmt"
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 	"log"
+	"tg-light-bot/common"
+	"tg-light-bot/domain"
+	"tg-light-bot/infrastructure"
 )
 
 const cmdLight = "Чи є світло?"

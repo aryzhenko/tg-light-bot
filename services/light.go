@@ -1,9 +1,9 @@
 package services
 
 import (
-	"era-light-bot/common"
-	"era-light-bot/infrastructure"
 	"fmt"
+	"tg-light-bot/common"
+	"tg-light-bot/infrastructure"
 )
 
 type Light struct {

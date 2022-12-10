@@ -1,11 +1,11 @@
 package services
 
 import (
-	"era-light-bot/common"
-	"era-light-bot/domain"
-	"era-light-bot/infrastructure"
 	"fmt"
 	"log"
+	"tg-light-bot/common"
+	"tg-light-bot/domain"
+	"tg-light-bot/infrastructure"
 	"time"
 )
 
