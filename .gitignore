@@ -1,0 +1,5 @@
+/.idea/
+/docker-compose/mysql/data/
+*.iml
+/.env
+/build/

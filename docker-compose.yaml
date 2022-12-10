@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  mysql:
+    platform: linux/amd64
+    image: mysql:5.7.32
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_DATABASE=light_bot
+      - MYSQL_ROOT_PASSWORD=123456
+      - MYSQL_USER=mysqluser
+      - MYSQL_PASSWORD=mysqlpw
+    volumes:
+      - ./docker-compose/mysql/data:/var/lib/mysql
+      - ./docker-compose/mysql/init:/docker-entrypoint-initdb.d/:ro
